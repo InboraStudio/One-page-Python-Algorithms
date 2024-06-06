@@ -3,8 +3,8 @@ import cmath
 
 def logic_gate():
     a = random.randint(1, 10)
-    b = random.randint(-10, 10)
-    c = random.randint(-10, 10)
+    b = random.randint(-10, 100)
+    c = random.randint(-10, 100)
     return a, b, c
 
 def solve_logic(a, b, c):
